@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Scanner1 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String name;
+        String breed;
+        int age;
+        System.out.println("Greetings. What is your pet's name?");
+        name = sc.next();
+        System.out.println("What kind of animal is " + name + "?");
+        breed = sc.next();
+        System.out.println("How old is " + name + "?");
+        age = sc.nextInt();
+        System.out.println(name + " is your " + breed + " and it it " + age);
+
+        String myAnswer = sc.nextLine();
+
+        //input string "P Sherman 42 Wallaby Way Sydney"
+        //variables: fi
