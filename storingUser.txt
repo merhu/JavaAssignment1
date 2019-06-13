@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Assignment {
+    public static void main(String[] args) {
+//Getting and storing user input assignment
+        Scanner sc = new Scanner(System.in);
+        String firstInitial, lastName, houseNumber, streetName, streetType, city;
+
+        System.out.println("Please enter in your initials:");
+        firstInitial = sc.nextLine();
+        System.out.println("Please enter in your Last Name:");
+        lastName = sc.nextLine();
+        System.out.println("What is the house number ? ");
+        houseNumber = sc.nextLine();
+        System.out.println("What is the street name ? ");
+        streetName = sc.nextLine();
+        System.out.println("What is the street Type ? ");
+        streetType = sc.nextLine();
+        System.out.println("Where is city ? ");
+        city = sc.nextLine();
+
+
+        System.out.println(streetName);
+
+    }
+}
